@@ -5,7 +5,7 @@ export default function App() {
   let name = "Elikem"
   return (
     <View style={styles.container}>
-      <Text style={styles.text}>My name is <Text style= {styles.name} >{name}</Text> </Text>
+      <Text style={styles.text}>My name is<Text style= {styles.name} >{name}</Text> </Text>
       <StatusBar style="auto" />
     </View>
   );
